@@ -1,6 +1,6 @@
 # README #
 
-Guías y protocolo para desarrollo de Homie.
+Guías y protocolo para desarrollo.
 
 ### Secciones ###
 

@@ -1,5 +1,20 @@
 # Estilo y calidad del código #
 
+## PHP ##
+
+### Guía de estilo ###
+* [PHP Coding Standards](http://www.php-fig.org/psr/psr-2/)
+
+### Herramientas
+
+#### PHP Coding Standards Fixer
+
+[Github](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
+
+```
+php-cs-fixer fix app/controllers
+```
+
 ## Ruby ##
 
 ### Guía de estilo ###

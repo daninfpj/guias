@@ -3,7 +3,7 @@
 ## Repositorio ##
 * Siempre existirán dos branches en el repositorio: `master` y `develop`
 * `master` mantendrá la versión lista para producción. Cualquier cambio que entre a `master` está listo para ser (y deberá ser) desplegado en producción
-* `develop` mantendrá la versión estable de desarrollo. Los *features* serán *merged* a develop, allí se verificarán los cambios en *staging* y posteriormente pasarán a `master` para ser desplegados en producción. 
+* `develop` mantendrá la versión estable de desarrollo. Los *features* serán *merged* a develop, allí se verificarán los cambios en *staging* y posteriormente pasarán a `master` para ser desplegados en producción.
 
 ## Comenzar un nuevo *feature* ##
 Crear un nuevo feature branch desde la punta de `develop`.
@@ -30,7 +30,7 @@ git rebase -i origin/develop
 git push origin feature/<nombre>
 ```
 
-*Una vez publicado el feature branch en el origen, evitar hacer rebase, excepto justo antes de hacer merge.*
+*Una vez publicado el feature branch en el origen, evitar hacer rebase, excepto justo antes de crear el pull request.*
 
 ## Revisión de código ##
 
@@ -67,7 +67,7 @@ git merge feature/<nombre> --no-ff
 git push
 ```
 
-Eliminar *feature branch*.
+Eliminar *feature branch*. (Esto generalemente se hace desde Github o Bitbucket después de hacer merge del PR).
 
 ```
 git push origin --delete feature/<nombre>
